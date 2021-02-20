@@ -1,0 +1,40 @@
+html{
+    max-width: 100%;
+    height: auto;    
+}
+
+.box{
+    background: #fff;
+    margin: 50px auto;
+    line-height: 0.5;
+    border: 2px solid black;
+    padding: 2em 2em;
+    height: 500px;
+    width: 800px;
+}
+h1{
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+h2{
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.btnmenu{
+    font-size: 24px;
+    padding: 25px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    margin: 20% 120px 0px 118px; 
+}
+.btnmenu:hover{
+    background-color: #545454;
+    color: white;
+}

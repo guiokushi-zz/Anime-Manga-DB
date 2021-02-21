@@ -2,14 +2,18 @@ html{
     max-width: 100%;
     height: auto;    
 }
-
+body{
+    background-image: url(../IMG/bd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .box{
     background: #fff;
     margin: 50px auto;
     line-height: 0.5;
-    border: 2px solid black;
+    border: 8px double black;
     padding: 2em 2em;
-    height: 500px;
+    height: 600px;
     width: 800px;
 }
 h1{
@@ -35,6 +39,20 @@ h2{
     margin: 20% 120px 0px 118px; 
 }
 .btnmenu:hover{
+    background-color: #545454;
+    color: white;
+}
+.logoutbtn{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 200px;
+}
+.logoutbtn:hover{
     background-color: #545454;
     color: white;
 }
